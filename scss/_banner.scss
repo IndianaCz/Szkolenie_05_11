@@ -1,0 +1,27 @@
+.banner {
+    padding: 14px 45px;
+    color: $color-white;
+    .banner-title {
+        
+        font-size: 46px;
+    }
+    .banner-subtitle {
+        font-size: 28px;
+        font-weight:300;
+    }
+    .banner-btn {
+        width: 160px;
+        padding: 12px 0;
+        margin-top: 20px;
+        border-radius: 25px;
+        border: none;
+        transition: 0.5s;
+        cursor: pointer;
+        &:hover {
+            background-color: $color-white;
+            color: black;
+            font-weight: 600;
+
+        }
+    }
+}

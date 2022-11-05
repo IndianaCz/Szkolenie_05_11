@@ -1,0 +1,71 @@
+.pricing {
+    margin: 50px 0;
+    padding: 14px 45px;
+    .pricing-wrapper {
+        @include flex(center,center,20px);
+    }
+}
+.pricing-card {
+    @extend %glass;
+        text-align: center;
+        flex: 1;
+        padding: 30px;
+        border-radius: 10px;
+        transition: 0.5s;
+        .price-period {
+            font-size: 62px;
+        
+        }
+        .price_period_secondary {
+            font-size:24px;
+           
+        }
+        &:hover {
+            background-color: $color-white;
+            color: black;
+            transform: translateY(-20px);
+        }
+       
+        
+
+}
+.pricing_offer {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    margin: 15px 0;
+}
+.pricing-details-support {
+    text-align: left;
+}
+.pricing-details-storage {
+    text-align: left;
+}
+.pricing-details-visitors {
+    text-align: left;
+}
+.price_btn {
+    font-size: 16px;
+    width:100%;
+    padding: 12px;
+    margin: 15px 0;
+    color: $color-white;
+    background-color: rgba(3, 17, 77, 0.562);
+    border-radius: 20px;
+    border: 1px solid white;
+}
+.pricing_desc {
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    opacity: 0.6;
+    
+}
+
+.bi-currency-dollar {
+    position:relative;
+    top: -23px;
+    left:8px;
+    font-size: 24px;
+    
+}
